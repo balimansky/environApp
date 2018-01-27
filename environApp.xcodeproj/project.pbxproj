@@ -12,8 +12,8 @@
 		B5F4167A200702AF00898B94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F41678200702AF00898B94 /* Main.storyboard */; };
 		B5F4167C200702AF00898B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F4167B200702AF00898B94 /* Assets.xcassets */; };
 		B5F4167F200702AF00898B94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F4167D200702AF00898B94 /* LaunchScreen.storyboard */; };
-		B5F4168A200702AF00898B94 /* test1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F41689200702AF00898B94 /* test1Tests.swift */; };
-		B5F41695200702AF00898B94 /* test1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F41694200702AF00898B94 /* test1UITests.swift */; };
+		B5F4168A200702AF00898B94 /* environAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F41689200702AF00898B94 /* test1Tests.swift */; };
+		B5F41695200702AF00898B94 /* environAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F41694200702AF00898B94 /* test1UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,30 +22,30 @@
 			containerPortal = B5F41669200702AF00898B94 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B5F41670200702AF00898B94;
-			remoteInfo = test1;
+			remoteInfo = environApp;
 		};
 		B5F41691200702AF00898B94 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B5F41669200702AF00898B94 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B5F41670200702AF00898B94;
-			remoteInfo = test1;
+			remoteInfo = environApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B5F41671200702AF00898B94 /* test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F41671200702AF00898B94 /* environApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = environApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F41674200702AF00898B94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5F41676200702AF00898B94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B5F41679200702AF00898B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5F4167B200702AF00898B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5F4167E200702AF00898B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5F41680200702AF00898B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5F41685200702AF00898B94 /* test1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5F41689200702AF00898B94 /* test1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test1Tests.swift; sourceTree = "<group>"; };
+		B5F41685200702AF00898B94 /* environAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = environAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F41689200702AF00898B94 /* environAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test1Tests.swift; sourceTree = "<group>"; };
 		B5F4168B200702AF00898B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5F41690200702AF00898B94 /* test1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5F41694200702AF00898B94 /* test1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test1UITests.swift; sourceTree = "<group>"; };
+		B5F41690200702AF00898B94 /* environAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = environAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F41694200702AF00898B94 /* environAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test1UITests.swift; sourceTree = "<group>"; };
 		B5F41696200702AF00898B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,9 +77,9 @@
 		B5F41668200702AF00898B94 = {
 			isa = PBXGroup;
 			children = (
-				B5F41673200702AF00898B94 /* test1 */,
-				B5F41688200702AF00898B94 /* test1Tests */,
-				B5F41693200702AF00898B94 /* test1UITests */,
+				B5F41673200702AF00898B94 /* environApp */,
+				B5F41688200702AF00898B94 /* environAppTests */,
+				B5F41693200702AF00898B94 /* environAppUITests */,
 				B5F41672200702AF00898B94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +87,14 @@
 		B5F41672200702AF00898B94 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B5F41671200702AF00898B94 /* test1.app */,
-				B5F41685200702AF00898B94 /* test1Tests.xctest */,
-				B5F41690200702AF00898B94 /* test1UITests.xctest */,
+				B5F41671200702AF00898B94 /* environApp.app */,
+				B5F41685200702AF00898B94 /* environAppTests.xctest */,
+				B5F41690200702AF00898B94 /* environAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B5F41673200702AF00898B94 /* test1 */ = {
+		B5F41673200702AF00898B94 /* environApp */ = {
 			isa = PBXGroup;
 			children = (
 				B5F41674200702AF00898B94 /* AppDelegate.swift */,
@@ -104,33 +104,33 @@
 				B5F4167D200702AF00898B94 /* LaunchScreen.storyboard */,
 				B5F41680200702AF00898B94 /* Info.plist */,
 			);
-			path = test1;
+			path = environApp;
 			sourceTree = "<group>";
 		};
-		B5F41688200702AF00898B94 /* test1Tests */ = {
+		B5F41688200702AF00898B94 /* environAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				B5F41689200702AF00898B94 /* test1Tests.swift */,
+				B5F41689200702AF00898B94 /* environAppTests.swift */,
 				B5F4168B200702AF00898B94 /* Info.plist */,
 			);
-			path = test1Tests;
+			path = environAppTests;
 			sourceTree = "<group>";
 		};
-		B5F41693200702AF00898B94 /* test1UITests */ = {
+		B5F41693200702AF00898B94 /* environAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B5F41694200702AF00898B94 /* test1UITests.swift */,
+				B5F41694200702AF00898B94 /* environAppUITests.swift */,
 				B5F41696200702AF00898B94 /* Info.plist */,
 			);
-			path = test1UITests;
+			path = environAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B5F41670200702AF00898B94 /* test1 */ = {
+		B5F41670200702AF00898B94 /* environApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5F41699200702AF00898B94 /* Build configuration list for PBXNativeTarget "test1" */;
+			buildConfigurationList = B5F41699200702AF00898B94 /* Build configuration list for PBXNativeTarget "environApp" */;
 			buildPhases = (
 				B5F4166D200702AF00898B94 /* Sources */,
 				B5F4166E200702AF00898B94 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = test1;
-			productName = test1;
-			productReference = B5F41671200702AF00898B94 /* test1.app */;
+			name = environApp;
+			productName = environApp;
+			productReference = B5F41671200702AF00898B94 /* environApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B5F41684200702AF00898B94 /* test1Tests */ = {
+		B5F41684200702AF00898B94 /* environAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5F4169C200702AF00898B94 /* Build configuration list for PBXNativeTarget "test1Tests" */;
+			buildConfigurationList = B5F4169C200702AF00898B94 /* Build configuration list for PBXNativeTarget "environAppTests" */;
 			buildPhases = (
 				B5F41681200702AF00898B94 /* Sources */,
 				B5F41682200702AF00898B94 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				B5F41687200702AF00898B94 /* PBXTargetDependency */,
 			);
-			name = test1Tests;
-			productName = test1Tests;
-			productReference = B5F41685200702AF00898B94 /* test1Tests.xctest */;
+			name = environAppTests;
+			productName = environAppTests;
+			productReference = B5F41685200702AF00898B94 /* environAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B5F4168F200702AF00898B94 /* test1UITests */ = {
+		B5F4168F200702AF00898B94 /* environAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5F4169F200702AF00898B94 /* Build configuration list for PBXNativeTarget "test1UITests" */;
+			buildConfigurationList = B5F4169F200702AF00898B94 /* Build configuration list for PBXNativeTarget "environAppUITests" */;
 			buildPhases = (
 				B5F4168C200702AF00898B94 /* Sources */,
 				B5F4168D200702AF00898B94 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				B5F41692200702AF00898B94 /* PBXTargetDependency */,
 			);
-			name = test1UITests;
-			productName = test1UITests;
-			productReference = B5F41690200702AF00898B94 /* test1UITests.xctest */;
+			name = environAppUITests;
+			productName = environAppUITests;
+			productReference = B5F41690200702AF00898B94 /* environAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B5F4166C200702AF00898B94 /* Build configuration list for PBXProject "test1" */;
+			buildConfigurationList = B5F4166C200702AF00898B94 /* Build configuration list for PBXProject "environApp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5F41670200702AF00898B94 /* test1 */,
-				B5F41684200702AF00898B94 /* test1Tests */,
-				B5F4168F200702AF00898B94 /* test1UITests */,
+				B5F41670200702AF00898B94 /* environApp */,
+				B5F41684200702AF00898B94 /* environAppTests */,
+				B5F4168F200702AF00898B94 /* environAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5F4168A200702AF00898B94 /* test1Tests.swift in Sources */,
+				B5F4168A200702AF00898B94 /* environAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5F41695200702AF00898B94 /* test1UITests.swift in Sources */,
+				B5F41695200702AF00898B94 /* environAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		B5F41687200702AF00898B94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5F41670200702AF00898B94 /* test1 */;
+			target = B5F41670200702AF00898B94 /* environApp */;
 			targetProxy = B5F41686200702AF00898B94 /* PBXContainerItemProxy */;
 		};
 		B5F41692200702AF00898B94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5F41670200702AF00898B94 /* test1 */;
+			target = B5F41670200702AF00898B94 /* environApp */;
 			targetProxy = B5F41691200702AF00898B94 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -428,9 +428,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6MYQMDFA25;
-				INFOPLIST_FILE = test1/Info.plist;
+				INFOPLIST_FILE = environApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alimansky.test1.test1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alimansky.environApp.test1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,9 +443,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6MYQMDFA25;
-				INFOPLIST_FILE = test1/Info.plist;
+				INFOPLIST_FILE = environApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alimansky.test1.test1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alimansky.environApp.test1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,13 +459,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6MYQMDFA25;
-				INFOPLIST_FILE = test1Tests/Info.plist;
+				INFOPLIST_FILE = environAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alimansky.test1.test1Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alimansky.environApp.test1Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test1.app/test1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/environApp.app/environApp";
 			};
 			name = Debug;
 		};
@@ -476,13 +476,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6MYQMDFA25;
-				INFOPLIST_FILE = test1Tests/Info.plist;
+				INFOPLIST_FILE = environAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alimansky.test1.test1Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alimansky.environApp.test1Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test1.app/test1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/environApp.app/environApp";
 			};
 			name = Release;
 		};
@@ -492,13 +492,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6MYQMDFA25;
-				INFOPLIST_FILE = test1UITests/Info.plist;
+				INFOPLIST_FILE = environAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alimansky.test1.test1UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alimansky.environApp.test1UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = test1;
+				TEST_TARGET_NAME = environApp;
 			};
 			name = Debug;
 		};
@@ -508,20 +508,20 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6MYQMDFA25;
-				INFOPLIST_FILE = test1UITests/Info.plist;
+				INFOPLIST_FILE = environAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alimansky.test1.test1UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alimansky.environApp.test1UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = test1;
+				TEST_TARGET_NAME = environApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5F4166C200702AF00898B94 /* Build configuration list for PBXProject "test1" */ = {
+		B5F4166C200702AF00898B94 /* Build configuration list for PBXProject "environApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5F41697200702AF00898B94 /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5F41699200702AF00898B94 /* Build configuration list for PBXNativeTarget "test1" */ = {
+		B5F41699200702AF00898B94 /* Build configuration list for PBXNativeTarget "environApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5F4169A200702AF00898B94 /* Debug */,
@@ -539,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5F4169C200702AF00898B94 /* Build configuration list for PBXNativeTarget "test1Tests" */ = {
+		B5F4169C200702AF00898B94 /* Build configuration list for PBXNativeTarget "environAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5F4169D200702AF00898B94 /* Debug */,
@@ -548,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5F4169F200702AF00898B94 /* Build configuration list for PBXNativeTarget "test1UITests" */ = {
+		B5F4169F200702AF00898B94 /* Build configuration list for PBXNativeTarget "environAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5F416A0200702AF00898B94 /* Debug */,
